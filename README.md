@@ -1,12 +1,43 @@
-# React + Vite
+# Immediate Execution Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+The Immediate Execution Calculator is a simple calculator application that performs calculations immediately as the user inputs expressions. It supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Immediate execution of arithmetic expressions
+- Support for addition, subtraction, multiplication, and division
+- User-friendly interface
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+To install and run the Immediate Execution Calculator, follow these steps:
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/iyoolaoyabiyi/immediate-execution-calculator.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd immediate-execution-calculator
+    ```
+3. Install the required dependencies:
+    ```sh
+    npm install
+    ```
+
+## Usage
+
+To start the calculator application, run the following command:
+```sh
+npm start
+```
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
