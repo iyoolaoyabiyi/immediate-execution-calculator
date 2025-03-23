@@ -1,0 +1,27 @@
+// @import "bootstrap/scss/bootstrap";
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 400px;
+  #display, #topDisplay {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+#equals {
+  grid-row: span 2;
+}
+
+#zero {
+  grid-column: span 2;
+}
